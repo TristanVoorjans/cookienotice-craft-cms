@@ -1,0 +1,26 @@
+<section id="cookienotice-banner" class="cookienotice cookienotice-banner hidden" 
+aria-labelledby="accept-cookienotice-banner" role="dialog" aria-modal="true" tabindex="-1">
+    <div class="cookienotice-content">
+        <div class="cookienotice-body">
+            <h2 id="accept-cookienotice-banner" class="cookienotice-headline">
+                {{ "Deze website gebruikt cookies"|t("cookie-notice") }}
+            </h2>
+            <p>
+                {{ "Dankzij het gebruik hiervan kunnen we een goed werkende website aanbieden.
+                Door op 'Alle cookies aanvaarden' te klikken ga je akkoord met het opslaan van onze cookies op je computer. Door op 'Cookies instellen' te klikken kan je kiezen welke cookies je wilt toestaan.
+                De essentiële en functionele cookies zijn noodzakelijk voor de goede werking van de website en kunnen niet worden geweigerd."|t("cookie-notice") }}
+            </p>
+        </div>
+        <div class="cookienotice-actions">
+            <button class="button button--primary notranslate js-cookie-accept">
+                {{ "Alle cookies aanvaarden"|t("cookie-notice") }}
+            </button>
+            <button class="cookienotice-link notranslate js-cookie-essentials">
+                {{ "Enkel minimale cookies aanvaarden"|t("cookie-notice") }}
+            </button>
+            <button class="cookienotice-link notranslate js-cookie-settings">
+                {{ "Cookies instellen"|t("cookie-notice") }}
+            </button>
+        </div>
+    </div>
+</section>

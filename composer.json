@@ -1,0 +1,33 @@
+{
+  "name": "voorjans/cookie-notice-craft",
+  "description": "A Craft CMS plugin that gives you the cookie notice functionality",
+  "type": "craft-plugin",
+  "keywords": ["craft", "cms", "craftcms", "craft-plugin", "cookie", "cookies", "notice"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Voorjans"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "voorjans\\cookienotice\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Cookie Notice",
+    "handle": "cookie-notice",
+    "schemaVersion": "1.0.0",
+    "developer": "Voorjans",
+    "class": "voorjans\\cookienotice\\CookieNotice"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
